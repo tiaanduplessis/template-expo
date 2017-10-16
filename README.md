@@ -1,5 +1,7 @@
 # Expo Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/template-expo.svg)](https://greenkeeper.io/)
+
 > Scaffolding out a Expo app
 
 ## Install
