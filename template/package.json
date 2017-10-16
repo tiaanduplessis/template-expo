@@ -1,0 +1,31 @@
+{
+    "name": "<%= name %>",
+    "version": "1.0.0",
+    "description": "<%= description %>",
+    "repository": {
+        "url": "<%= username %>/<%= name %>",
+        "type": "git"
+    },
+    "author": "<%= username %> <<%= email %>>",
+    "license": "",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "test": "jest",
+        "format": "prettier-standard '**/*.js'",
+        "start": "exp start"
+    },
+    "jest": {
+        "preset": "jest-expo"
+    },
+    "dependencies": {
+        "expo": "^21.0.0",
+        "react": "16.0.0-alpha.12",
+        "react-native": "https://github.com/expo/react-native/archive/sdk-21.0.2.tar.gz"
+    },
+    "devDependencies": {
+        "exp": "^44.0.0",
+        "jest-expo": "^21.0.0",
+        "prettier-standard": "^7.0.1",
+        "standard": "^10.0.3"
+    }
+}
