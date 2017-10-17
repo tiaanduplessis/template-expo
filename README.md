@@ -1,6 +1,6 @@
 # Expo Template
 
-> Scaffolding out a Expo app
+> 📱 Scaffod out an Expo app
 
 ## Install
 
