@@ -1,11 +1,11 @@
 {
-  <% const slug = this.slugify(name) -%>
+  <% const slug = this.slugify(name.toLowerCase()) -%>
   "expo": {
     "name": "<%= name %>",
     "description": "<%= description %>",
     "slug": "<%= slug %>",
     "privacy": "unlisted",
-    "sdkVersion": "21.0.0",
+    "sdkVersion": "22.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#fff",
